@@ -33,7 +33,8 @@ You're creating an instance of the Express application.
 importing necessary packages such as express, mongoose, body-parser, cors, and your custom routes defined in ####Routes.js.
 
 ### Middleware:
-### body-parser middleware:  used to parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+### body-parser middleware: 
+used to parse incoming request bodies in a middleware before your handlers, available under the req.body property.
 ### cors middleware:
  used to enable CORS (Cross-Origin Resource Sharing) for your server.
 ### Routes: 
@@ -44,7 +45,7 @@ connecting to MongoDB using Mongoose.
 ### Server Setup:
 After connecting to MongoDB successfully, you're starting the server to listen on port 3001.
 
-##Additional Information:
+## Additional Information:
 This project uses a simple Node.js backend to store and manage todos. Ensure the backend server is running before using the application.
 For deployment, consider hosting the backend and frontend separately. Update the API endpoint URLs in the code accordingly.
 
