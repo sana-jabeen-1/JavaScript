@@ -15,33 +15,33 @@ npm start
 
 5.Open your browser and visit http://localhost:3000 to view the app.
 
-###Usage:
+### Usage:
 Enter a title and description for your todo in the input fields.
 Click on the "Add Todo" button to add the todo to the list.
 To mark a todo as done or todo, click on the respective "Mark as Done" or "Mark as Todo" button.
 To delete a todo, click on the "X" icon next to the todo.
 Todos are color-coded based on their status: green for "Done" and red for "Todo".
 
-###Credits:
-####React -
+### Credits:
+#### React -
 A JavaScript library for building user interfaces.
-####Axios -
+#### Axios -
 A promise-based HTTP client for the browser and Node.js.
 ####Express App Setup:
 You're creating an instance of the Express application.
-####Dependencies:
+#### Dependencies:
 importing necessary packages such as express, mongoose, body-parser, cors, and your custom routes defined in ####Routes.js.
 
-###Middleware:
-###body-parser middleware:  used to parse incoming request bodies in a middleware before your handlers, available under the req.body property.
-###cors middleware:
+### Middleware:
+### body-parser middleware:  used to parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+### cors middleware:
  used to enable CORS (Cross-Origin Resource Sharing) for your server.
-###Routes: 
+### Routes: 
 the routes defined in Routes.js for handling API requests. These routes are prefixed with /api.
-###Database Connection: 
+### Database Connection: 
 connecting to MongoDB using Mongoose.
-###configured your connection using settings from config.js.
-###Server Setup:
+### configured your connection using settings from config.js.
+### Server Setup:
 After connecting to MongoDB successfully, you're starting the server to listen on port 3001.
 
 ##Additional Information:
